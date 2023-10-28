@@ -3,18 +3,14 @@
 ![抓取过程图](./imgs/多目标抓取过程示意图.svg)
 
 A benchmark platform for robot grasp detection, integrating some classic grasp algorithms.
-
-#
 # 项目简介
 Grasp-encyclopedia 致力于打造一个抓取算法的通用平台，该平台将整理并集成历年来抓取领域的里程碑式开源算法。并以该领域几大著名数据集为基础，将算法封装在基于数据集的train-test程序框架中。为需要快速对比不同算法在同一数据集下性能的朋友提供帮助。
-#
 
 
 # 目录
+[grasp-encyclopedia](#grasp-encyclopedia)
 - [grasp-encyclopedia](#grasp-encyclopedia)
-- [](#)
 - [项目简介](#项目简介)
-- [](#-1)
 - [目录](#目录)
   - [Review](#review)
   - [2D-Grasp](#2d-grasp)
@@ -33,8 +29,9 @@ Grasp-encyclopedia 致力于打造一个抓取算法的通用平台，该平台�
 
 
 ## [2D-Grasp](#2D-Grasp)
+2D 平面抓取是指目标物体位于平面工作空间上并且机械臂执行自上而下的抓取，这种抓取模式通常被称为 Top-down 抓取。在这种情况下，夹具的初始高度是固定的，并且夹具垂直于抓取平面。因此，抓取信息可以从 6D 简化为 3D，即2D 面内位置和 1D 旋转角度。
 
-
+相关方法
 ## [6DoF-Grasp](#6DoF-Grasp)
 
 ## [Datasets](#Datasets)
